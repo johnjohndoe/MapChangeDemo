@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.bricolsoftconsulting.mapchange.MyMapView
+        android:id="@+id/theMap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="@string/google_maps_api_key"
+        android:clickable="true"
+        android:enabled="true" >
+    </com.bricolsoftconsulting.mapchange.MyMapView>
+
+</RelativeLayout>
